@@ -5,8 +5,8 @@ dbt_third:
       type: mysql
       server: localhost
       port: 3306
-      database: dbt_third
-      schema: dbt_third
+      database: my_dbt_db
+      schema: my_dbt_db
       username: root
       password: Romochka
       driver: MySQL ODBC 8.0 ANSI Driver
