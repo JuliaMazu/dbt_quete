@@ -1,0 +1,12 @@
+dbt_third:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: localhost
+      port: 3306
+      database: dbt_third
+      schema: dbt_third
+      username: root
+      password: Romochka
+      driver: MySQL ODBC 8.0 ANSI Driver
